@@ -1,2 +1,6 @@
 # homebrew-tap
-Homebrew formulae
+Skookum yukondude-sanctioned homebrew formulae.
+
+## Install
+
+    brew tap yukondude/tap
