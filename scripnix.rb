@@ -3,7 +3,7 @@ class Scripnix < Formula
   homepage "https://yukondude.github.io/Scripnix/"
   url "https://github.com/yukondude/Scripnix/archive/0.1.8.tar.gz"
   version "0.1.8"
-  sha256 "690b454c6d5457d8a1d8eacf8893e391dc639b8eb24f292a8270dec4e60e4198"
+  sha256 "c488af9f3e5011713a3f02eae9fa3db4e56f22adccf6431e44aec33f67634618"
 
   depends_on :python3
   depends_on "coreutils"
