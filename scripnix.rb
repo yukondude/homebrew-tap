@@ -7,6 +7,7 @@ class Scripnix < Formula
 
   depends_on :python3
   depends_on "coreutils"
+  depends_on "findutils"
   depends_on "gnu-sed"
 
   def install
