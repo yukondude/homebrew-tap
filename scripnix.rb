@@ -3,9 +3,9 @@ class Scripnix < Formula
 
   desc "Useful Python3 and bash shell scripts for macOS/BSD and *NIX. Useful to me, at any rate. YMMV."
   homepage "https://yukondude.github.io/Scripnix/"
-  url "https://github.com/yukondude/Scripnix/archive/0.1.11.tar.gz"
-  version "0.1.11"
-  sha256 "616cf7ceb47054fefc7cd84e9800fe670d34bbcf276ea3bc24570d840c2084ca"
+  url "https://github.com/yukondude/Scripnix/archive/0.1.12.tar.gz"
+  version "0.1.12"
+  sha256 "ac3cd5b82d3c23ea64f4bf75f7f50551f653b37770afb6d15c5a5cb5369a9f2e"
 
   depends_on :python3
   depends_on "coreutils"
