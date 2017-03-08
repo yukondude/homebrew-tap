@@ -1,4 +1,4 @@
-class Scripnix < Formula
+class Twempest < Formula
   include Language::Python::Virtualenv
 
   desc "Twitter to text via template. Somehow that abbreviates to \"twempest\"."
