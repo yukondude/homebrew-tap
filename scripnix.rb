@@ -3,9 +3,9 @@ class Scripnix < Formula
 
   desc "Useful Python3 and bash shell scripts for macOS/BSD and *NIX. Useful to me, at any rate. YMMV."
   homepage "https://yukondude.github.io/Scripnix/"
-  url "https://github.com/yukondude/Scripnix/archive/0.1.12.tar.gz"
   version "0.1.12"
-  sha256 "ac3cd5b82d3c23ea64f4bf75f7f50551f653b37770afb6d15c5a5cb5369a9f2e"
+  url "https://files.pythonhosted.org/packages/98/48/5f41d82ab87766ec9ecdb67fb6a14d0bdc99811347e3a86fb46db3ac0518/scripnix-0.1.12.tar.gz"
+  sha256 "653f42b76b5ec1dffa988de3b2db774da68124ed0c77f4f792211fdf8171dd40"
 
   depends_on :python3
   depends_on "coreutils"
@@ -18,8 +18,8 @@ class Scripnix < Formula
   end
 
   resource "psutil" do
-    url "https://files.pythonhosted.org/packages/49/ed/2a0b13f890e798b6f1f3625f0e87e5b712471d2c1c625bdcd396d36c56dc/psutil-5.1.1.tar.gz"
-    sha256 "ece06401d719050a84cca97764ff5b0e41aafe6b6a2ec8a1d0bb89ca5e206d0f"
+    url "https://files.pythonhosted.org/packages/19/2c/41c601cdd5586f601663d6985ff2cf1c5322f1ffd32d67d3001035d9f81d/psutil-5.1.2.tar.gz"
+    sha256 "43f32b0a392c80cff0f480bd0792763333e46d7062285dd1226b70473c55e8ac"
   end
 
   def install
