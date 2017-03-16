@@ -3,9 +3,9 @@ class Twempest < Formula
 
   desc "Twitter to text via template. Somehow that abbreviates to \"twempest\"."
   homepage "https://github.com/yukondude/Twempest"
-  version "0.2.5"
-  url "https://files.pythonhosted.org/packages/90/e2/addcf6c926b712cd9bdcd73381220fb32dc8ef240e3e89e3b0f2ae26a057/twempest-0.2.5.tar.gz"
-  sha256 "0f100c04f6d7226f88ca1915c7627830f3bc02b6e048b2bf1c495c974e29a745"
+  version "0.2.6"
+  url "https://files.pythonhosted.org/packages/07/57/23e540fe6d291fbd6d2c506dec28083337bc04d54ee7f63c4ec4daab292b/twempest-0.2.6.tar.gz"
+  sha256 "444653ba1e544f98506b196650e6cca29fdd70988785b311368425ee643e593b"
 
   depends_on :python3
 
