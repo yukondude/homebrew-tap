@@ -7,7 +7,7 @@ class Scripnix < Formula
   url "https://files.pythonhosted.org/packages/98/48/5f41d82ab87766ec9ecdb67fb6a14d0bdc99811347e3a86fb46db3ac0518/scripnix-0.1.12.tar.gz"
   sha256 "653f42b76b5ec1dffa988de3b2db774da68124ed0c77f4f792211fdf8171dd40"
 
-  depends_on :python3
+  depends_on "python"
   depends_on "coreutils"
   depends_on "findutils"
   depends_on "gnu-sed"
