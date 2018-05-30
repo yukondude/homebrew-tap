@@ -7,7 +7,7 @@ class Twempest < Formula
   url "https://files.pythonhosted.org/packages/07/57/23e540fe6d291fbd6d2c506dec28083337bc04d54ee7f63c4ec4daab292b/twempest-0.2.6.tar.gz"
   sha256 "444653ba1e544f98506b196650e6cca29fdd70988785b311368425ee643e593b"
 
-  depends_on :python3
+  depends_on "python"
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz"
