@@ -1,11 +1,11 @@
 class Twempest < Formula
   include Language::Python::Virtualenv
 
-  version "0.2.8"
+  version "0.2.9"
   desc "Twitter to text via template. Somehow that abbreviates to \"twempest\"."
   homepage "https://github.com/yukondude/Twempest"
-  url "https://files.pythonhosted.org/packages/bf/3c/0dcee8ac133a309c47caf890a674332be84af3058ffc4caf552f76583441/twempest-0.2.8.tar.gz"
-  sha256 "48997e64e7d1e59a68f57e6e25f77d63bf71f51ff097fb161fd9945949af2460"
+  url "https://files.pythonhosted.org/packages/d4/47/e284c87a21866ab4c41c8049dd72901910296ef03e40061c3562cf3aff3c/twempest-0.2.9.tar.gz"
+  sha256 "77ed055919a56e077768fc347bdb846225b57d98c69600c926c9398867794ccd"
 
   depends_on "python"
 
@@ -42,6 +42,11 @@ class Twempest < Formula
   resource "oauthlib" do
     url "https://files.pythonhosted.org/packages/df/5f/3f4aae7b28db87ddef18afed3b71921e531ca288dc604eb981e9ec9f8853/oauthlib-2.1.0.tar.gz"
     sha256 "ac35665a61c1685c56336bda97d5eefa246f1202618a1d6f34fccb1bdd404162"
+  end
+
+  resource "pipenv" do
+    url "https://files.pythonhosted.org/packages/fd/e9/01822318551caa0d62a181ba3b10f0f3757bb1e270da97165bd52db92776/pipenv-2018.11.26.tar.gz"
+    sha256 "a673e606e8452185e9817a987572b55360f4d28b50831ef3b42ac3cab3fee846"
   end
 
   resource "PySocks" do
@@ -82,6 +87,16 @@ class Twempest < Formula
   resource "urllib3" do
     url "https://files.pythonhosted.org/packages/b1/53/37d82ab391393565f2f831b8eedbffd57db5a718216f82f1a8b4d381a1c1/urllib3-1.24.1.tar.gz"
     sha256 "de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"
+  end
+
+  resource "virtualenv" do
+    url "https://files.pythonhosted.org/packages/4e/8b/75469c270ac544265f0020aa7c4ea925c5284b23e445cf3aa8b99f662690/virtualenv-16.1.0.tar.gz"
+    sha256 "f899fafcd92e1150f40c8215328be38ff24b519cd95357fa6e78e006c7638208"
+  end
+
+  resource "virtualenv-clone" do
+    url "https://files.pythonhosted.org/packages/9f/93/322660aa3c7368bad1808de0c35aea38b5394d5c742edce40abf3067a6e2/virtualenv-clone-0.4.0.tar.gz"
+    sha256 "06c5a8bc77f3ed0ad130a690e623e27e07b6599dbdbf83e089cc3a2c6b191da0"
   end
 
   def install
