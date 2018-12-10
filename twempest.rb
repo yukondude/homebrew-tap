@@ -1,7 +1,7 @@
 class Twempest < Formula
   include Language::Python::Virtualenv
 
-  version 0.2.8
+  version "0.2.8"
   desc "Twitter to text via template. Somehow that abbreviates to \"twempest\"."
   homepage "https://github.com/yukondude/Twempest"
   url "https://files.pythonhosted.org/packages/bf/3c/0dcee8ac133a309c47caf890a674332be84af3058ffc4caf552f76583441/twempest-0.2.8.tar.gz"
