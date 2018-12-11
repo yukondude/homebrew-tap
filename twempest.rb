@@ -1,11 +1,11 @@
 class Twempest < Formula
   include Language::Python::Virtualenv
 
-  version "0.2.10"
+  version "0.2.12"
   desc "Twitter to text via template. Somehow that abbreviates to \"twempest\"."
   homepage "https://github.com/yukondude/Twempest"
-  url "https://files.pythonhosted.org/packages/70/bc/cc8c8ba7afc1ecb1e314d2a939688c89236c009cf57b350302104ecaca63/twempest-0.2.10.tar.gz"
-  sha256 "34f26d08fee61c8878dcd4ba075aa5eaf60da3a3bd61d4e7e606d46c647ddfb5"
+  url "https://files.pythonhosted.org/packages/80/f9/6ebef897dc33f2638b0af28727b6eb3bf5758d2a63002f74480335393c09/twempest-0.2.12.tar.gz"
+  sha256 "801294f14dd33513153ec14ce24c3c914226d5bfbf62259f95f835ac52d13caa"
 
   depends_on "python"
 
